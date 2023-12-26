@@ -192,17 +192,14 @@ body{
         width: 100%;
         display: flex;
         position: absolute;
-        flex-direction: column;
-
-        
-       
+        flex-direction: column; 
         
     }
     .mobile-menu span {
         margin-top: 3px;
         width: 20px;
         height: 4px;
-        background-color: #eaee00da  ;
+        background-color: #eaee00da;
     
     }
     .nevigation-bar{
