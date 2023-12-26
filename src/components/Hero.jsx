@@ -36,7 +36,11 @@ const Hero = () => {
           </div>
           <div >
             <div className="hero-img">
+<<<<<<< HEAD
             <img src="/src/assets/images/hero.png" alt="notfound" />
+=======
+            <img src="./src/assets/images/hero.PNG" alt="notfound" />
+>>>>>>> 01f8eee3347a29f3e53ef4b79c49f703cd9e4d8b
             </div>
             <div className="w-100% px-2 hero-info">
                <h1 className="abu-hasan">Abu Hasan</h1>
