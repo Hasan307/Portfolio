@@ -1,6 +1,6 @@
 import "../assets/css/style.css";
 import "../assets/css/services.css";
-const services = () => {
+const Services = () => {
   return (
     <div>
       <div className="flex justify-center">
@@ -33,4 +33,4 @@ const services = () => {
   );
 };
 
-export default services;
+export default Services;
