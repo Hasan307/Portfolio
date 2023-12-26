@@ -12,7 +12,7 @@ export default function App() {
       <NavBar/>
     </Router>
     <Hero/>
-    <Services />
+    <Services/>
     <LeaveReview/>
     
    </div>
