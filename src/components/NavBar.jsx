@@ -17,7 +17,7 @@ const NavBar = () => {
         <img src="/src/assets/images/logo.png" alt="not found" className="w-[40px]"/>
       </div>
       
-      <section className={mobileMenu? "absolute z-10 flex right-[27px] justify-end content-end my-10 " : " absolute flex right-[2px] h-14"} >
+      <section className={mobileMenu? "absolute z-10 flex right-[27px] content-end my-10 " : " absolute flex right-[2px] h-14"} >
         <div className={mobileMenu?"nevigation-bar-mobile" : "nevigation-bar"}>
           {NavItems.map((item) => {
             return (
