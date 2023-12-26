@@ -36,7 +36,7 @@ const Hero = () => {
           </div>
           <div >
             <div className="hero-img">
-            <img src="/src/assets/images/hero.png" alt="notfound" />
+            <img src="./src/assets/images/hero.png" alt="notfound" />
             </div>
             <div className="w-100% px-2 hero-info">
                <h1 className="abu-hasan">Abu Hasan</h1>
