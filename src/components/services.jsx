@@ -1,9 +1,10 @@
+import "../assets/css/Services.css";
 import "../assets/css/style.css";
-import "../assets/css/services.css";
+
 const Services = () => {
-  return (
-    <div>
-      <div className="flex justify-center">
+    return (
+        <div>
+            <div className="flex justify-center">
         <div className="w-[20%] h-[1px] bg-[#db9617] my-8 mx-[8px] "></div>
         <h1 className="text-center text-4xl font-bold py-4 px-4">Services</h1>
         <div className="w-[20%] h-[1px] bg-[#db9617] my-8 mx-[8px] "></div>
@@ -29,8 +30,8 @@ const Services = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+        </div>
+    );
 };
 
 export default Services;
