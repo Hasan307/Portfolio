@@ -1,0 +1,162 @@
+.react{
+    position: absolute;
+    left: 400px;
+    top: 90px;
+    animation: react 8s ease-in-out infinite;
+  
+    filter: drop-shadow(0 0 0.75rem #3a3a3a);
+    transition: "all 0.5s ease-in-out"
+}
+@keyframes react {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+@media screen and (max-width: 768px) {
+    .react{
+        left: 300px;
+    }
+
+    
+}
+.ns{
+    position: absolute;
+    top: 140px;
+    filter: drop-shadow(7px 8px 7px #ffffff52);   
+    animation: ns 8s ease-in-out infinite;
+   
+}
+@keyframes ns {
+    0% {
+        top:140px;
+ 
+    }
+    50% {
+        top:200px;
+        
+    }
+    100% {
+        top:140px;
+       
+    }
+}
+@media screen and (max-width: 768px) {
+    .ns{
+        position: absolute;
+    top: 140px;
+    filter: drop-shadow(7px 8px 7px #ffffff52);   
+    animation: ns 3s ease-in-out infinite;
+   
+    }
+    @keyframes ns {
+        0% {
+            top:140px;
+     
+        }
+        50% {
+            top:150px;
+            
+        }
+        100% {
+            top:140px;
+           
+        }
+        
+    }
+
+    
+}
+.ps{
+    position: absolute;
+    top: 300px;
+    animation: ps 10s ease-in-out infinite;
+}
+@keyframes ps {
+    0% {
+        top:300px;
+ 
+    }
+    50% {
+        top:340px;
+        
+    }
+    100% {
+        top:300px;
+       
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ps{
+        position: absolute;
+        top: 200px;
+        left: 40px;
+        animation: ps 5s ease-in-out infinite;
+    }   
+    @keyframes ps {
+        0% {
+            top:200px;
+     
+        }
+        50% {
+            top:230px;
+            
+        }
+        100% {
+            top:200px;
+           
+        }
+    }
+
+    
+}
+
+.ai{
+    position: absolute;
+    left: 300px;
+    top: 370px;
+    animation: ai 8s ease-in-out infinite;
+}
+@keyframes ai {
+    0% {
+        
+        top: 370px;
+    }
+    50% {
+        
+        top: 300px;
+    }
+    100% {
+        
+        top: 370px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ai{
+        position: absolute;
+        left: 250px;
+        top: 300px;
+        animation: ai 5s ease-in-out infinite;
+    }
+    @keyframes ai {
+        0% {
+            
+            top: 250px;
+        }
+        50% {
+            
+            top: 200px;
+        }
+        100% {
+            
+            top: 250px;
+        }
+    }
+
+    
+}
+

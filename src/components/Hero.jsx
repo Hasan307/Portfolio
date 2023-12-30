@@ -2,7 +2,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { FaFacebook, FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { BrowserRouter as Router, NavLink } from "react-router-dom";
-
+import "../assets/css/hero.css";
 const Hero = () => {
   const [text] = useTypewriter({
     words: ["Web Designer", "Graphics Designer"],
@@ -28,6 +28,7 @@ const Hero = () => {
               </Router>
               
             </div>
+            
             <div className="p-4">
                 <p>
                 I am a Web Developer and Graphics designer. I'm a best Combo Packege For you. I have vast knowledge about graphics design so I can Use it On your Websites. Feel free to browse my gigs and message me for your ideas and projects in mind. Let's work together!
@@ -35,6 +36,12 @@ const Hero = () => {
             </div>
           </div>
           <div >
+            <div className="absolute w-[100%] ">
+              <img className="w-[90px] react" src="images/react.png" alt="" />
+              <img className="w-[90px] ns" src="images/ns.png" alt="" />
+              <img className="w-[160px] ps" src="images/ps.png" alt="" />
+              <img className="w-[60px] ai" src="images/ai.png" alt="" />
+            </div>
             <div className="hero-img">
             <img src="images/hero.PNG" alt="notfound" />
             </div>

@@ -3,68 +3,67 @@
     display: flex;
     justify-content: space-around;
     margin: 20px;
+    flex-direction: row;
+}
+@media screen and (max-width: 768px) {
+    .video-container {
+        flex-direction: column;
+    }
+    
 }
 .video-wrapper {
-    position: relative;
+    position: relative;   
 }
-
-.video-text {
-    width: 84%;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 24px;
-    text-align: center;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.623);
-    border-left: 4px solid rgb(51, 51, 51);
-    border-bottom: 4px solid rgb(51, 51, 51);
-}
-.video-wrapper:hover .video-text {
-    background-color: rgba(255, 195, 31, 0.87);
-    border-left: 4px solid rgb(51, 51, 51);
-    top:50%;
-    height: 75%;
-    animation: hover .3s ease-in-out;
+.video-wrapper:hover video{
+    transform: scale(1.1);
     transition: all 0.5s ease-in-out;
 }
-.video-wrapper:hover .video-text p{
+.video-wrapper video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+@media screen and (max-width: 768px) {
+    .video-wrapper video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    }
     
-    align-self: center;
-        margin-top: 25%;
-        font-size: 30px;
-        font-weight: 700;
-    animation: hover2 .3s ease-in-out;
-
-}
-@keyframes hover2 {
-    0% {
-        margin-top: 0%;
-        font-size: 24px;
-        font-weight: 800;
-        
-    }
-    100% {
-        margin-top: 25%;
-        font-size: 30px;
-        font-weight: 700;
-    }
-}
-@keyframes hover {
-    0% {
-        top: 50%;
-        height: 0%;
-        
-    }
-    100% {
-        top: 50%;
-        height: 75%;
-    }
 }
 
-video {
-    width: 400px;
-    height: 300px;
+.video-text{
+    position: absolute;
+    display: block;
+    background-color: chocolate;
+    padding: 20px;
+    border-radius: 10px;
+    top: 40%;
+    left: 35%;
+    font-size: 20px;
+    font-weight: 700;
+    z-index: 1;
 }
+
+@media screen and (max-width: 768px) {
+    .video-text{
+        position: absolute;
+        display: block;
+        background-color: chocolate;
+        padding: 10px;
+        border-radius: 10px;
+        top: 40%;
+        left: 35%;
+        font-size: 10px;
+        font-weight: 300;
+        z-index: 1;
+    }
+    
+}
+
+
