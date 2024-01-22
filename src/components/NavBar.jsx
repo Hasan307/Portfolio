@@ -7,7 +7,7 @@ const NavBar = () => {
    const [mobileMenu, setMobileMenu] = useState(false);
     
   return (
-    <div>
+    <div className="relative z-10">
         <div className="mobile-menu" onClick={()=>{setMobileMenu(!mobileMenu)}}>
         <span></span>
         <span></span>

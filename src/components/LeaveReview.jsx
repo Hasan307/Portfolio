@@ -1,6 +1,6 @@
 const LeaveReview = () => {
   return (
-    <div className="self-center">
+    <div className="self-center relative">
       <section>
         <div className=" text-white py-20">
           <div className="container mx-auto flex flex-col md:flex-row my-6 md:my-24">
