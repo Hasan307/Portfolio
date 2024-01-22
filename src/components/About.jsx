@@ -10,7 +10,7 @@ const About = () => {
           <img src="images/about.png" alt="" />
         </div>
         <div
-          className=" justify-center  relative grow-[8] w-[70%] bg-red-500"
+          className=" justify-center  relative grow-[8] w-[70%]"
           data-aos="fade-up"
         >
           <div className=" align-bottom ">
