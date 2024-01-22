@@ -243,8 +243,8 @@ body{
 }
 .bg-image{
     
-    background-image: url(images/bg.png);
-    
+    background-image: url(/public/images/bg.png);
+
     background-repeat: no-repeat;
     position: fixed;
     width: 100%;
