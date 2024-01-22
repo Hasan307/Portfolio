@@ -4,17 +4,17 @@ const About = () => {
     <div className="relative">
       <div className="flex lg:flex-row justify-center relative flex-col ">
         <div
-          className="flex justify-center relative grow-[4] w-[20%]"
+          className="flex justify-center relative grow-[4] lg:w-[20%] w-[60%] text-center m-auto"
           data-aos="fade-up"
         >
           <img src="images/about.png" alt="" />
         </div>
         <div
-          className=" justify-center  relative grow-[8] w-[70%]"
+          className=" justify-center  relative grow-[8] w-[100%] lg:w-[70%] m-auto"
           data-aos="fade-up"
         >
-          <div className=" align-bottom ">
-          <h1 className=" fw-bolder relative font-black text-[20px] ">
+          <div className=" align-bottom px-10">
+          <h1 className=" fw-bolder relative font-black text-[20px]  ">
             About Me
           </h1>
           <p>
@@ -49,16 +49,16 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex lg:flex-row justify-center relative flex-col  bg-[#161616] p-[20px]  ">
+      <div className="flex lg:flex-row justify-center relative flex-col-reverse  bg-[#161616] p-[20px]">
         <div
-          className=" justify-center relative grow-[8] w-[70%] bg-[#000000] p-[40px] rounded-[40px] 
-          shadow-[20px_20px_20px_-15px_rgba(255,165,0)]"
+          className=" justify-center relative grow-[8] lg:w-[70%] w-[100%] bg-[#000000] p-[40px] rounded-[40px] m-auto 
+          lg:shadow-[20px_20px_20px_-15px_rgba(255,165,0)] shadow-[10px_10px_10px_-15px_rgba(255,165,0)]"
           data-aos="fade-up"
         >
           <h1 className="  relative font-black text-[20px] ">
             Who Am I?
           </h1>
-          <div className="h-[1px] w-[100%] bg-white my-6"></div>
+          <div className="h-[1px] w-[100%] bg-white my-6  "></div>
           <p>
             I am not just a <span className="text-[#ffdd48] text-lg ">designer</span>, I am a <span className=" text-[20px] text-[#ffdd48] font-black ">storyteller</span>  who uses pixels and
             colors to weave narratives that captivate and engage. My journey in
@@ -68,7 +68,7 @@ const About = () => {
             user experiences.
           </p>
         </div>
-        <div>
+        <div className="p-4">
           <img src="images/why2.png" alt="" />
         </div>
       </div>
