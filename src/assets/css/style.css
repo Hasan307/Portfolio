@@ -20,9 +20,10 @@ body{
     background: #000000;
     color: #ffffff;
     max-width: 1920px;
-    margin: auto;
+    height: auto;
+    margin: auto !important;
+    
    
-
   
 }
 .container1{
@@ -242,8 +243,8 @@ body{
 }
 .bg-image{
     
-    background-image: url(images/bg.jpg);
-    background-size: cover;
+    background-image: url(images/bg.png);
+    
     background-repeat: no-repeat;
     position: fixed;
     width: 100%;
