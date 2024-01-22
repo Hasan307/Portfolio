@@ -7,7 +7,7 @@ const About = () => {
           className="flex justify-center relative grow-[4] w-[20%]"
           data-aos="fade-up"
         >
-          <img src="/public/images/about.png" alt="" />
+          <img src="images/about.png" alt="" />
         </div>
         <div
           className=" justify-center  relative grow-[8] w-[70%] bg-red-500"
@@ -67,7 +67,7 @@ const About = () => {
           </p>
         </div>
         <div>
-          <img src="/public/images/why2.png" alt="" />
+          <img src="images/why2.png" alt="" />
         </div>
       </div>
     </div>
