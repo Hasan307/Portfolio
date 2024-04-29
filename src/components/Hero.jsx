@@ -42,7 +42,7 @@ const Hero = () => {
               </h2>
               <Router>
                 <NavLink
-                  to="https://www.fiverr.com/hasan307raj"
+                  to=""
                   className="hire-now-button"
                   data-aos="fade-up"
                 >
